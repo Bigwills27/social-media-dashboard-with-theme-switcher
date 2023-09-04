@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h2 class="dash-heading">Social Media Dashboard <br><span class="total-follow">Total Followers: 23,004</span></h2>
+
+    <div class="theme">
+      <h3 class="current-theme">Light Mode</h3>
+      <!-- toggle start -->
+      <label class="switch">
+        <input type="checkbox" tabindex="1" name="theme-check">
+        <span class="slider"></span>
+      </label>
+      <!-- toggle end -->
+    </div>
+  </header>
+
+  <section class="dashboard">
+    <!-- facebook card -->
+    <div class="card facebook">
+      <a href="#" class="address">
+        <img src="./images/icon-facebook.svg" alt="" class="logo fb-logo">
+        <p class="at">@nathanf</p>
+      </a>
+      <div class="fans">
+        <p class="followers">1987</p>
+        <p class="audience">FOLLOWERS</p>
+      </div>
+      <div class="progress">
+        <img src="./images/icon-up.svg" alt="" class="arrow">
+        <p class="numbers">12 Today</p>
+      </div>
+    </div>
+
+    <!-- Twitter card -->
+    <div class="card twitter">
+      <a href="#" class="address">
+        <img src="./images/icon-twitter.svg" alt="" class="logo fb-logo">
+        <p class="at">@nathanf</p>
+      </a>
+      <div class="fans">
+        <p class="followers">1044</p>
+        <p class="audience">FOLLOWERS</p>
+      </div>
+      <div class="progress">
+        <img src="./images/icon-up.svg" alt="" class="arrow">
+        <p class="numbers">99 Today</p>
+      </div>
+    </div>
+
+    <!-- instagram card -->
+    <div class="card instagram">
+      <a href="#" class="address">
+        <img src="./images/icon-instagram.svg" alt="" class="logo fb-logo">
+        <p class="at">@realnathanf</p>
+      </a>
+      <div class="fans">
+        <p class="followers">11k</p>
+        <p class="audience">FOLLOWERS</p>
+      </div>
+      <div class="progress">
+        <img src="./images/icon-up.svg" alt="" class="arrow">
+        <p class="numbers">1099 Today</p>
+      </div>
+    </div>
+
+    <!-- Youtube card -->
+    <div class="card youtube">
+      <a href="#" class="address">
+        <img src="./images/icon-youtube.svg" alt="" class="logo fb-logo">
+        <p class="at">Nathan F.</p>
+      </a>
+      <div class="fans">
+        <p class="followers">8239</p>
+        <p class="audience">SUBSCRIBERS</p>
+      </div>
+      <div class="progress">
+        <img src="./images/icon-down.svg" alt="" class="arrow">
+        <p class="numbers">144 Today</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="overview-sec">
+    <h3 class="overview-head">Overview - Today</h3>
+    <div class="overviews">
+
+      <div class="first4">
+        <!-- facebook page views -->
+        <div class="overview">
+          <div class="top-flex">
+            <p class="overview-type">Page Views</p>
+            <img src="./images/icon-facebook.svg" alt="" class="logo">
+          </div>
+          <div class="bottom-flex">
+            <p class="digit">87</p>
+            <div class="progress">
+              <img src="./images/icon-up.svg" alt="" class="arrow">
+              <p class="numbers">3%</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- facebook likes -->
+        <div class="overview">
+          <div class="top-flex">
+            <p class="overview-type">Likes</p>
+            <img src="./images/icon-facebook.svg" alt="" class="logo">
+          </div>
+          <div class="bottom-flex">
+            <p class="digit">52</p>
+            <div class="progress">
+              <img src="./images/icon-down.svg" alt="" class="arrow">
+              <p class="numbers">2%</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Instagram Likes -->
+        <div class="overview">
+          <div class="top-flex">
+            <p class="overview-type">Likes</p>
+            <img src="./images/icon-instagram.svg" alt="" class="logo">
+          </div>
+          <div class="bottom-flex">
+            <p class="digit">5462</p>
+            <div class="progress">
+              <img src="./images/icon-up.svg" alt="" class="arrow">
+              <p class="numbers">2257%</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Instagram Profile Views -->
+        <div class="overview">
+          <div class="top-flex">
+            <p class="overview-type">Profile Views</p>
+            <img src="./images/icon-instagram.svg" alt="" class="logo">
+          </div>
+          <div class="bottom-flex">
+            <p class="digit">52k</p>
+            <div class="progress">
+              <img src="./images/icon-up.svg" alt="" class="arrow">
+              <p class="numbers">1375%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="last4">
+        <!-- Twitter Retweets -->
+        <div class="overview">
+          <div class="top-flex">
+            <p class="overview-type">Retweets</p>
+            <img src="./images/icon-twitter.svg" alt="" class="logo">
+          </div>
+          <div class="bottom-flex">
+            <p class="digit">117</p>
+            <div class="progress">
+              <img src="./images/icon-up.svg" alt="" class="arrow">
+              <p class="numbers">303%</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Twitter Likes -->
+        <div class="overview">
+          <div class="top-flex">
+            <p class="overview-type">Likes</p>
+            <img src="./images/icon-twitter.svg" alt="" class="logo">
+          </div>
+          <div class="bottom-flex">
+            <p class="digit">507</p>
+            <div class="progress">
+              <img src="./images/icon-up.svg" alt="" class="arrow">
+              <p class="numbers">553%</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Youtube Likes -->
+        <div class="overview">
+          <div class="top-flex">
+            <p class="overview-type">Likes</p>
+            <img src="./images/icon-youtube.svg" alt="" class="logo">
+          </div>
+          <div class="bottom-flex">
+            <p class="digit">107</p>
+            <div class="progress">
+              <img src="./images/icon-down.svg" alt="" class="arrow">
+              <p class="numbers">19%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview">
+          <div class="top-flex">
+            <p class="overview-type">Total Views</p>
+            <img src="./images/icon-youtube.svg" alt="" class="logo">
+          </div>
+          <div class="bottom-flex">
+            <p class="digit">1407</p>
+            <div class="progress">
+              <img src="./images/icon-down.svg" alt="" class="arrow">
+              <p class="numbers">12%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
